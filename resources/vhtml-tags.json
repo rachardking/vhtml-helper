@@ -1,0 +1,266 @@
+{
+    "v-checkbox": {
+        "description": "",
+        "attributes": ["value", "label", "indeterminate", "disabled", "checked", "name"],
+        "methods": ["change"],
+        "defaults": ["label", "disabled", "checked"]
+    },
+    "v-progress": {
+        "description": "",
+        "attributes": ["kind", "value", "state", "no-text", "unit", "stroke-width", "radius"],
+        "methods": [],
+        "defaults": ["value", "state", "stroke-width"]
+    },
+    "v-radio": {
+        "description": "",
+        "attributes": ["checked", "value", "name", "disabled"],
+        "methods": [],
+        "defaults": ["value", "vertical"]
+    },
+    "v-switch": {
+        "description": "",
+        "attributes": ["disabled", "on-text", "hold-value", "off-text", "value", "checked", "name"],
+        "methods": [],
+        "defaults": ["checked"]
+    },
+    "v-checkbox-group": {
+        "description": "",
+        "attributes": ["value"]
+    },
+    "v-chart": {
+        "description": "",
+        "attributes": ["kind", "options", "series", "loading", "animation"],
+        "methods": [],
+        "defaults": ["options", "series"]
+    },
+    "v-table": {
+        "description": "",
+        "attributes": ["data", "multi-selection", "tree-table", "sub-table", "indent-width", "footer", "row-clazz", "loading", "pagination", "expandable", "selectable", "header-fix", "expand-row", "can-load-more", "single-expand", "auto", "context"],
+        "methods": ["expand", "subTableMore", "paginationChange", "sort", "rowClick"],
+        "defaults": ["data", "multi-selection", "pagination"]
+    },
+    "v-table-body": {
+        "description": "",
+        "attributes": ["display-columns", "display-data", "expandable", "selectable", "expand-more", "single-expand", "row-clazz", "multi-selection", "indent-width", "tree-table", "sub-table"]
+    },
+    "v-table-column": {
+        "description": "",
+        "attributes": ["column-key", "label", "render", "render-header", "sortable", "sort-order", "expandable", "compare", "visible", "formatter", "align", "width", "min-width", "footer", "clazz", "rowspan"]
+    },
+    "v-radio-group": {
+        "description": "",
+        "attributes": ["value", "vertical", "kind"]
+    },
+    "v-uploader": {
+        "description": "",
+        "attributes": ["kind", "name", "url", "tip-text", "size-limit", "type-limit", "auto-upload", "show-progress", "show-list", "show-error-tip", "data", "multiple", "with-credentials", "show-preview", "disabled", "draggable"],
+        "methods": ["start", "progress", "cancel", "complete", "success", "error", "formUploaded", "fileremove", "fileschange"],
+        "defaults": ["name", "url", "tip-text", "disabled"]
+    },
+    "v-pagination": {
+        "description": "",
+        "attributes": ["index", "total", "count", "count-options", "show-quick"],
+        "methods": ["change"],
+        "defaults": ["total"]
+    },
+    "v-date-picker": {
+        "description": "",
+        "attributes": ["display-format", "model-format", "max-range", "default-index", "disabled", "min-date", "max-date", "input-name", "value", "kind", "shortcuts", "placeholder"],
+        "methods": [],
+        "defaults": ["max-range", "min-date", "max-date", "value", "shortcuts", "placeholder"]
+    },
+    "v-popper": {
+        "description": "",
+        "attributes": ["z-index", "clazz", "theme", "placement", "content", "offset", "transition", "options", "use-arrow", "inline", "fixed", "priority", "boundary", "boundary-gap", "disabled", "sync-width"],
+        "methods": ["visibleChange", "beforeDestroy"],
+        "defaults": ["clazz", "placement", "use-arrow"]
+    },
+    "v-input": {
+        "description": "",
+        "attributes": ["value", "placeholder", "kind", "name", "autofocus", "disabled", "readonly", "limit", "maxlength", "password"],
+        "methods": [],
+        "defaults": ["value", "placeholder", "name", "autofocus"]
+    },
+    "v-tip": {
+        "description": "",
+        "attributes": ["clazz", "kind", "placement", "content", "offset", "gap", "disabled"],
+        "methods": ["-"],
+        "defaults": ["clazz", "placement"]
+    },
+    "v-button": {
+        "description": "",
+        "attributes": [],
+        "methods": [],
+        "defaults": ["status", "disabled"]
+    },
+    "v-dialog": {
+        "description": "",
+        "attributes": ["z-index", "kind", "title", "status", "open", "disabled", "mask-closable"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-select": {
+        "description": "",
+        "attributes": ["kind", "name", "maps", "multiple", "strict-mode", "value", "popper-clazz", "disabled", "max-height", "index", "placeholder", "no-data", "options"],
+        "methods": ["input", "change", "select"],
+        "defaults": ["options"]
+    },
+    "v-icon": {
+        "description": "",
+        "attributes": ["name", "label", "rotate", "flip", "use-stroke"],
+        "methods": [],
+        "defaults": ["name", "label"]
+    },
+    "v-form": {
+        "description": "",
+        "attributes": ["model", "kind", "action", "method", "rules"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-form-item": {
+        "description": "",
+        "attributes": ["label", "label-for", "name", "required", "rules", "error-placement", "error", "error-scroll-offset"]
+    },
+    "v-form-input": {
+        "description": "",
+        "attributes": ["name", "value", "disabled", "delay-change", "format"]
+    },
+    "v-select-list": {
+        "description": "",
+        "attributes": [],
+        "methods": ["input", "change", "select"],
+        "defaults": ["options"]
+    },
+    "v-panel": {
+        "description": "",
+        "attributes": ["z-index", "placement", "title", "open", "width", "max-height", "min-height", "mask-closable"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-tag": {
+        "description": "",
+        "attributes": ["size", "pre-icon", "suf-icon", "icon-fixed", "text"]
+    },
+    "v-tags": {
+        "description": "",
+        "attributes": ["size", "pre-icon", "suf-icon", "icon-fixed", "value", "selectable", "selected"],
+        "methods": ["preAction", "sufAction"],
+        "defaults": []
+    },
+    "v-tabs": {
+        "description": "",
+        "attributes": ["kind", "value", "indent"],
+        "methods": [],
+        "defaults": ["value", "indent"]
+    },
+    "v-tab": {
+        "description": "",
+        "attributes": ["value"]
+    },
+    "v-popconfirm": {
+        "description": "",
+        "attributes": ["clazz", "placement", "status", "offset", "disabled", "use-arrow", "fixed", "priority", "loading"],
+        "methods": ["visibleChange", "confirm", "cancel"],
+        "defaults": ["status", "loading"]
+    },
+    "v-audio": {
+        "description": "",
+        "attributes": ["src", "preload", "kind", "playback-rate", "dynamic-time", "beginplay", "duration"],
+        "methods": ["loadError", "trackEnded", "loadProgress"],
+        "defaults": ["src", "playback-rate", "beginplay", "duration"]
+    },
+    "v-spinner": {
+        "description": "",
+        "attributes": ["status", "size"],
+        "methods": [],
+        "defaults": ["status"]
+    },
+    "v-time-picker": {
+        "description": "",
+        "attributes": ["display-format", "kind", "name", "value", "hour-value", "has-second", "minute-value", "max-time", "min-time", "popper-clazz", "disabled", "hour-index", "minute-index", "placeholder", "no-data"],
+        "methods": [],
+        "defaults": ["name", "value"]
+    },
+    "v-number-input": {
+        "description": "",
+        "attributes": ["kind", "default", "value", "name", "disabled", "readonly", "step", "min", "max", "only-integer"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-card-picker": {
+        "description": "",
+        "attributes": ["multiple", "name", "maps", "index", "value", "options", "strict-mode", "single-unselect", "deletable"],
+        "methods": ["input", "change", "select"],
+        "defaults": ["options"]
+    },
+    "v-loadingbar": {
+        "description": "",
+        "attributes": ["percent", "auto", "duration", "status"],
+        "methods": [],
+        "defaults": ["status"]
+    },
+    "v-status-bar": {
+        "description": "",
+        "attributes": ["kind", "content", "show-close-icon"],
+        "methods": ["close"],
+        "defaults": ["kind", "content", "show-close-icon"]
+    },
+    "v-cascader": {
+        "description": "",
+        "attributes": ["maps", "multiple", "value", "disabled", "options"],
+        "methods": ["input", "change"],
+        "defaults": ["value", "options"]
+    },
+    "v-tree": {
+        "description": "",
+        "attributes": ["maps", "selected", "single", "options", "default-expand", "toggle-able"],
+        "methods": ["sync", "change"],
+        "defaults": ["maps", "selected", "options", "default-expand"]
+    },
+    "v-image-cropper": {
+        "description": "",
+        "attributes": ["src", "kind", "name", "value", "ratio", "keep-ratio", "width", "height"],
+        "methods": [],
+        "defaults": ["src", "keep-ratio", "width", "height"]
+    },
+    "v-copy": {
+        "description": "",
+        "attributes": ["kind", "value"],
+        "methods": [],
+        "defaults": ["value"]
+    },
+    "v-slider": {
+        "description": "",
+        "attributes": ["disabled", "range", "limit", "min", "max", "step", "value"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-steps": {
+        "description": "",
+        "attributes": ["index", "titles"],
+        "methods": [],
+        "defaults": []
+    },
+    "v-rangebar": {
+        "description": "",
+        "attributes": ["kind", "readonly", "show-section-tip", "name", "options", "value", "ratio", "width"],
+        "methods": ["input"],
+        "defaults": ["options", "value"]
+    },
+    "v-message": {
+        "description": "",
+        "attributes": [],
+        "methods": [],
+        "defaults": ["kind"]
+    },
+    "v-collapse": {
+        "description": "",
+        "attributes": ["value", "accordion"],
+        "methods": ["input", "change"],
+        "defaults": ["value"]
+    },
+    "v-collapse-item": {
+        "description": "",
+        "attributes": ["text", "value"]
+    }
+}
