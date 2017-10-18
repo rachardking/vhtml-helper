@@ -1,10 +1,14 @@
 {
   "name": "vhtml-helper",
   "main": "./lib/vhtml-helper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "vhtml-Helper is a Atom package and support snippets, autocomplete and document.",
-  "keywords": ["vhtml-Helper"],
-  "tag": ["vhtml-Helper"],
+  "keywords": [
+    "vhtml-Helper"
+  ],
+  "tag": [
+    "vhtml-Helper"
+  ],
   "repository": "https://github.com/rachardking/vhtml-helper",
   "license": "MIT",
   "engines": {
