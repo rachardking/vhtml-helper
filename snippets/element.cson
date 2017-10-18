@@ -10,8 +10,13 @@
 
           });
       """
-    "message":
-      "prefix": "msg",
+    "message-error":
+      "prefix": "msgerror",
       "body": """
-      this.$message('','sucess|error');
+      this.$message.error('');
+      """
+    "message-succ":
+      "prefix": "msgsucc",
+      "body": """
+      this.$message.success('');
       """
