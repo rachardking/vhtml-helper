@@ -37,6 +37,7 @@
         "description": "",
         "attributes": ["data", "multi-selection", "tree-table", "sub-table", "indent-width", "footer", "row-clazz", "loading", "pagination", "expandable", "selectable", "header-fix", "expand-row", "can-load-more", "single-expand", "auto", "context"],
         "methods": ["expand", "subTableMore", "paginationChange", "sort", "rowClick"],
+        "subtags": ["v-table-column"],
         "defaults": ["data", "multi-selection", "pagination"]
     },
     "v-table-body": {
